@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Frases</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="background">
+    <div class="quote-container" id="quote-container">
+        <!-- Nossas quotes-->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote"></span>
+        </div>
+        <!-- Autor da Quote-->
+        <div class="quote-author">
+            <span id="author"></span>
+        </div>
+        <!-- Botões -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Twitte isso">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button class="new-quote" id="new-quote"><i class="fas fa-redo-alt"></i></button>
+        </div>
+    </div>
+    <!-- tela de carregamento para quando a frase demorar a carregar-->
+    <div class="loader" id="loader">
+        
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
